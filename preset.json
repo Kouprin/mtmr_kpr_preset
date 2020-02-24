@@ -3,61 +3,40 @@
         "type": "staticButton",
         "title": "",
         "action": "appleScript",
-        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/sublime.scpt" },
+        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/scpt/sublime.scpt" },
         "align": "left",
         "bordered": true,
-        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/sublime.png" },
+        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/sublime.png" },
         "width": 48
   },
   {
         "type": "staticButton",
         "title": "",
         "action": "appleScript",
-        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/finder.scpt" },
+        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/scpt/finder.scpt" },
         "align": "left",
         "bordered": true,
-        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/finder.png" },
+        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/finder.png" },
         "width": 48
   },
   {
         "type": "staticButton",
         "title": "",
         "action": "appleScript",
-        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/brave.scpt" },
+        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/scpt/brave.scpt" },
         "align": "left",
         "bordered": true,
-        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/brave.png" },
+        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/brave.png" },
         "width": 48
   },
   {
         "type": "staticButton",
         "title": "",
         "action": "appleScript",
-        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/iterm.scpt" },
+        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/scpt/iterm.scpt" },
         "align": "left",
         "bordered": true,
-        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/iterm.png" },
-        "width": 48
-  },
-
-  {
-        "type": "staticButton",
-        "title": "",
-        "action": "appleScript",
-        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/telegram.scpt" },
-        "align": "left",
-        "bordered": true,
-        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/telegram.png" },
-        "width": 48
-  },
-  {
-        "type": "staticButton",
-        "title": "",
-        "action": "appleScript",
-        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/clion.scpt" },
-        "align": "left",
-        "bordered": true,
-        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/clion.png" },
+        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/iterm.png" },
         "width": 48
   },
 
@@ -65,20 +44,41 @@
         "type": "staticButton",
         "title": "",
         "action": "appleScript",
-        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/slack.scpt" },
+        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/scpt/telegram.scpt" },
         "align": "left",
         "bordered": true,
-        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/slack.png" },
+        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/telegram.png" },
         "width": 48
   },
   {
         "type": "staticButton",
         "title": "",
         "action": "appleScript",
-        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/music.scpt" },
+        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/scpt/clion.scpt" },
         "align": "left",
         "bordered": true,
-        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/music.png" },
+        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/clion.png" },
+        "width": 48
+  },
+
+  {
+        "type": "staticButton",
+        "title": "",
+        "action": "appleScript",
+        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/scpt/slack.scpt" },
+        "align": "left",
+        "bordered": true,
+        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/slack.png" },
+        "width": 48
+  },
+  {
+        "type": "staticButton",
+        "title": "",
+        "action": "appleScript",
+        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/scpt/music.scpt" },
+        "align": "left",
+        "bordered": true,
+        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/music.png" },
         "width": 48
   },
   // --- CPU begin ---
