@@ -185,7 +185,7 @@
             {
                 "type": "volume",
                 "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/volume_slide.png" },
-                "width": 180,
+                "width": 240,
                 "align": "right"
             },
             {
