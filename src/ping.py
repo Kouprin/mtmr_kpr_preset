@@ -1,4 +1,6 @@
 from urllib.request import Request, urlcleanup, urlopen
+import ssl
+import certifi
 
 req = Request('https://nordvpn.com/what-is-my-ip/')
 #req = Request('https://nordvpn.com/')
@@ -10,7 +12,7 @@ req.add_header("pragma", "no-cache")
 req.add_header("accept", "text/plain")
 urlcleanup()
 try:
-    resp = urlopen(req, timeout=1)
+    resp = urlopen(req, timeout=1, context=ssl.create_default_context(cafile=certifi.where()))
     data = resp.read()
     if b'Your internet traffic is secure.' in data:
         print(3)
