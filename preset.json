@@ -1,12 +1,22 @@
 [
   {
-        "type": "staticButton",
-        "title": "",
+       "refreshInterval": 60,
+        "type": "battery",
         "action": "appleScript",
         "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/scpt/act.scpt" },
         "align": "left",
         "bordered": true,
         "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/sys.png" },
+        "width": 96
+  },
+  {
+        "type": "staticButton",
+        "title": "",
+        "action": "appleScript",
+        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/scpt/finder.scpt" },
+        "align": "left",
+        "bordered": true,
+        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/finder.png" },
         "width": 48
   },
   {
