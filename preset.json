@@ -93,17 +93,20 @@
 
   { "type": "brightnessDown", "width": 48, "align": "right", "bordered": true },
   { "type": "brightnessUp", "width": 48, "align": "right", "bordered": true },
-  { "type": "inputsource", "width": 48, "align": "right" },
-              { "type": "staticButton", "width": 48, "align": "right",
-                  "title": "",
+  { "type": "inputsource", "width": 48, "align": "right", "bordered": true },
+              { "type": "appleScriptTitledButton", "width": 52, "align": "right",
                   "action": "appleScript",
                   "actionAppleScript": { "inline": "set volume output volume 1" },
-                  "bordered": true,
-                  "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/volume_1.png" }
+                  "refreshInterval": 0.01,
+                  "source": {
+                    "inline": "output volume of (get volume settings)"
+                  },
+                  "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/volume_2.png" },
+                  "bordered": false
               },
             {
                 "type": "volume",
-                "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/volume_slide.png" },
+                "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/point.png" },
                 "width": 128,
                 "align": "right"
             },
