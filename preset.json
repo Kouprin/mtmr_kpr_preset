@@ -79,6 +79,16 @@
         "width": 48
   },
   { "type": "network", "flip": true, "align": "right", "bordered": false },
+  {
+        "type": "shellScriptTitledButton",
+        "width": 20,
+        "refreshInterval": 2,
+        "source": {
+          "inline": "/Users/kpr/opt/anaconda3/bin/python3 /Users/kpr/mtmr/kpr_preset/nord.py | awk -F% '{p = $1; c = \"\\033[31m\"; if (p == 2) c = \"\\033[33m\"; if (p == 3) c = \"\\033[32m\"; printf \"%s⬤\\n\", c}'"
+        },
+        "align": "right",
+        "bordered": false
+  },
 
   { "type": "brightnessDown", "width": 48, "align": "right", "bordered": true },
   { "type": "brightnessUp", "width": 48, "align": "right", "bordered": true },
