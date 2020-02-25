@@ -3,60 +3,60 @@
        "refreshInterval": 60,
         "type": "battery",
         "action": "appleScript",
-        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/scpt/act.scpt" },
+        "actionAppleScript": { "filePath": "~/.mtmr_kpr/scpt/act.scpt" },
         "align": "left",
         "bordered": true,
-        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/sys.png" },
+        "image": { "filePath": "~/.mtmr_kpr/pic/sys.png" },
         "width": 96
   },
   {
         "type": "staticButton",
         "title": "",
         "action": "appleScript",
-        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/scpt/finder.scpt" },
+        "actionAppleScript": { "filePath": "~/.mtmr_kpr/scpt/finder.scpt" },
         "align": "left",
         "bordered": true,
-        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/finder.png" },
+        "image": { "filePath": "~/.mtmr_kpr/pic/finder.png" },
         "width": 48
   },
   {
         "type": "staticButton",
         "title": "",
         "action": "appleScript",
-        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/scpt/iterm.scpt" },
+        "actionAppleScript": { "filePath": "~/.mtmr_kpr/scpt/iterm.scpt" },
         "align": "left",
         "bordered": true,
-        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/iterm.png" },
+        "image": { "filePath": "~/.mtmr_kpr/pic/iterm.png" },
         "width": 48
   },
   {
         "type": "staticButton",
         "title": "",
         "action": "appleScript",
-        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/scpt/brave.scpt" },
+        "actionAppleScript": { "filePath": "~/.mtmr_kpr/scpt/brave.scpt" },
         "align": "left",
         "bordered": true,
-        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/brave.png" },
+        "image": { "filePath": "~/.mtmr_kpr/pic/brave.png" },
         "width": 48
   },
   {
         "type": "staticButton",
         "title": "",
         "action": "appleScript",
-        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/scpt/telegram.scpt" },
+        "actionAppleScript": { "filePath": "~/.mtmr_kpr/scpt/telegram.scpt" },
         "align": "left",
         "bordered": true,
-        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/telegram.png" },
+        "image": { "filePath": "~/.mtmr_kpr/pic/telegram.png" },
         "width": 48
   },
   {
         "type": "staticButton",
         "title": "",
         "action": "appleScript",
-        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/scpt/clion.scpt" },
+        "actionAppleScript": { "filePath": "~/.mtmr_kpr/scpt/clion.scpt" },
         "align": "left",
         "bordered": true,
-        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/clion.png" },
+        "image": { "filePath": "~/.mtmr_kpr/pic/clion.png" },
         "width": 48
   },
 
@@ -64,20 +64,20 @@
         "type": "staticButton",
         "title": "",
         "action": "appleScript",
-        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/scpt/slack.scpt" },
+        "actionAppleScript": { "filePath": "~/.mtmr_kpr/scpt/slack.scpt" },
         "align": "left",
         "bordered": true,
-        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/slack.png" },
+        "image": { "filePath": "~/.mtmr_kpr/pic/slack.png" },
         "width": 48
   },
   {
         "type": "staticButton",
         "title": "",
         "action": "appleScript",
-        "actionAppleScript": { "filePath": "/Users/kpr/mtmr/kpr_preset/scpt/music.scpt" },
+        "actionAppleScript": { "filePath": "~/.mtmr_kpr/scpt/music.scpt" },
         "align": "left",
         "bordered": true,
-        "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/music.png" },
+        "image": { "filePath": "~/.mtmr_kpr/pic/music.png" },
         "width": 48
   },
   {
@@ -85,7 +85,7 @@
         "width": 20,
         "refreshInterval": 2,
         "source": {
-          "inline": "/Users/kpr/opt/anaconda3/bin/python3 /Users/kpr/mtmr/kpr_preset/nord.py | awk -F% '{p = $1; c = \"\\033[31m\"; if (p == 2) c = \"\\033[33m\"; if (p == 3) c = \"\\033[32m\"; printf \"%s⇅\\n\", c}'"
+          "inline": "/usr/bin/python3 ~/.mtmr_kpr/src/ping.py | awk -F% '{p = $1; c = \"\\033[31m\"; if (p == 2) c = \"\\033[33m\"; if (p == 3) c = \"\\033[32m\"; printf \"%s⇅\\n\", c}'"
         },
         "align": "right",
         "bordered": false
@@ -101,12 +101,12 @@
                   "source": {
                     "inline": "output volume of (get volume settings)"
                   },
-                  "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/volume_2.png" },
+                  "image": { "filePath": "~/.mtmr_kpr/pic/volume_2.png" },
                   "bordered": false
               },
             {
                 "type": "volume",
-                "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/point.png" },
+                "image": { "filePath": "~/.mtmr_kpr/pic/point.png" },
                 "width": 128,
                 "align": "right"
             },
@@ -115,6 +115,6 @@
       "action": "appleScript",
       "actionAppleScript": { "inline": "set volume output volume 0" },
       "bordered": true,
-      "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/volume_mute.png" }
+      "image": { "filePath": "~/.mtmr_kpr/pic/volume_mute.png" }
   }
 ]
