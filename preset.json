@@ -78,7 +78,6 @@
         "image": { "filePath": "/Users/kpr/mtmr/kpr_preset/pic/music.png" },
         "width": 48
   },
-  { "type": "network", "flip": true, "align": "right", "bordered": false },
   {
         "type": "shellScriptTitledButton",
         "width": 20,
