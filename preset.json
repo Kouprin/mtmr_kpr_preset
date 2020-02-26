@@ -97,7 +97,7 @@
               { "type": "appleScriptTitledButton", "width": 52, "align": "right",
                   "action": "appleScript",
                   "actionAppleScript": { "inline": "set volume output volume 1" },
-                  "refreshInterval": 0.01,
+                  "refreshInterval": 0.1,
                   "source": {
                     "inline": "output volume of (get volume settings)"
                   },
