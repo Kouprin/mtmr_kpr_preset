@@ -1,5 +1,5 @@
 tell application "CLion" to activate
-delay 0.1
+delay 0.5
 tell application "System Events"
     tell process "Dock"
         tell list 1
