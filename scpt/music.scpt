@@ -1,4 +1,5 @@
 tell application "Google Play Music Desktop Player" to activate
+delay 0.1
 tell application "System Events"
     tell process "Dock"
         tell list 1
