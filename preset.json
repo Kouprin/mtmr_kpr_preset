@@ -80,6 +80,7 @@
         "image": { "filePath": "~/.mtmr_kpr/pic/music.png" },
         "width": 48
   },
+  { "type": "timeButton", "formatTemplate": "HH:mm", "width": 48, "align": "left" },
   {
         "type": "shellScriptTitledButton",
         "width": 20,
@@ -97,10 +98,10 @@
               { "type": "appleScriptTitledButton", "width": 52, "align": "right",
                   "action": "appleScript",
                   "actionAppleScript": { "inline": "set volume output volume 1" },
-                  "refreshInterval": 0.1,
                   "source": {
                     "inline": "output volume of (get volume settings)"
                   },
+                  "refreshInterval": 0.5,
                   "image": { "filePath": "~/.mtmr_kpr/pic/volume_2.png" },
                   "bordered": false
               },
